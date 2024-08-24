@@ -19,6 +19,7 @@
     "test": "vitest test"
   },
   "dependencies": {
+    "pinia": "^2.2.2",
     "vue": "^3.3.11"
   },
   "devDependencies": {
