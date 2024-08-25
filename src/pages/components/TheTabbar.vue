@@ -33,7 +33,7 @@ function handleChange(value: string) {
 </script>
 <template>
   <div class="the-tabbar">
-    <van-tabbar v-model="activePage" @change="handleChange">
+    <van-tabbar v-model="activePage" @change="handleChange" placeholder>
       <van-tabbar-item :name="TabbarItemNameEnum.tabA">
         <span
           :class="[
