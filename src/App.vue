@@ -1,3 +1,3 @@
 <template>
-  <div>template-h5</div>
+  <router-view />
 </template>
