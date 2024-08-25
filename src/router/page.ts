@@ -2,7 +2,14 @@ import { HOME_PATH, TabbarItemNameEnum } from '@/constants';
 
 export default [
   {
+    path: '/auth',
+    name: 'auth',
+    component: () =>
+      import(/* webpackChunkName: "pages" */ '@/pages/AuthView.vue'),
+  },
+  {
     path: HOME_PATH,
+    name: '首页',
     component: () =>
       import(/* webpackChunkName: "pages" */ '@/pages/IndexView.vue'),
     redirect: TabbarItemNameEnum.tabA,
