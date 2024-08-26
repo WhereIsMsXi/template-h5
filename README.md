@@ -31,3 +31,9 @@ pnpm test:unit
 ```sh
 pnpm lint
 ```
+
+### 提交 git
+
+```sh
+pnpm commit
+```
